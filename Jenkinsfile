@@ -11,21 +11,6 @@ steps {
 git 'https://github.com/veerangowda/web-application'
 }
 }
-stage('validate') {
-steps {
-sh 'mvn validate'
-}
-}
-stage('compile') {
-steps {
-sh 'mvn compile'
-}
-}
-stage('package') {
-steps {
-sh 'mvn package'
-}
-}
 }
 }
 

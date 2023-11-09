@@ -13,7 +13,7 @@ git 'https://github.com/veerangowda/web-application'
 }
   stage('python') {
     steps {
-      sh 'cat helo.py'
+      sh 'python helo.py'
     }
   }
 }

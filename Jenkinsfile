@@ -11,7 +11,7 @@ stages {
   }
 stage('git clone') {
 steps {
-git 'https://github.com/veerangowda/webapp.git'
+git 'https://github.com/veerangowda/web-application'
 }
 }
 stage('validate') {

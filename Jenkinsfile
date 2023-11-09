@@ -6,7 +6,7 @@ maven 'maven'
 stages {
   stage('print') {
     steps {
-      sh 'echo 'Hello World'
+      sh 'echo Hello World'
     }
   }
 stage('git clone') {

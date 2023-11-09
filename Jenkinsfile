@@ -11,6 +11,11 @@ steps {
 git 'https://github.com/veerangowda/web-application'
 }
 }
+  stage('python') {
+    steps {
+      sh 'cat https://github.com/veerangowda/web-application/helo.py'
+    }
+  }
 }
 }
 
